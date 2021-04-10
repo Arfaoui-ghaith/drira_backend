@@ -11,7 +11,7 @@ dotenv.config({ path: './config.env' });
 const app = require('./app');
 
 const DB =
-  'mongodb+srv://ghaith:7x5cxmkv7x5cxmkv@cluster0.xrkih.mongodb.net/natrous?retryWrites=true&w=majority';
+  'mongodb+srv://ghaith:7x5cxmkv7x5cxmkv@cluster0.xrkih.mongodb.net/spnetwork?retryWrites=true&w=majority';
 
 mongoose
   .connect(DB, {
